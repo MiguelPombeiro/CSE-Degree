@@ -4,7 +4,7 @@ I'm currently pursuing a Computer Sciences Engineering degree at the University 
 
 ![University of Évora Logo](./assets/UEvora_Logo.png)
 
-Assignments and coursework I'm completing for my Computer Sciences Engineering degree will be documented here at the end of each semester.
+Assignments and coursework completed throughout my Computer Sciences Engineering degree will be documented here at the end of each semester.
 
 Feel free to check out the [University of Évora](https://www.uevora.pt/) website for more information about the Computer Sciences Engineering program.
 
@@ -35,4 +35,4 @@ Feel free to check out the [University of Évora](https://www.uevora.pt/) websit
 
 ## Notes
 
-Most reports and assignments are written in Portuguese, as required for course submissions.
+Most reports and work statements are written in Portuguese, as required for course submissions.
