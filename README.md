@@ -10,9 +10,9 @@ Feel free to check out the [University of Évora](https://www.uevora.pt/) websit
 
 ### 1st Semester
 
+- [Digital Systems](./Digital-Systems/)
 - [Human-Computer Interaction (HCI)](./Human-Computer_Interaction/)
 - [Programming I](./Programming-I/)
-- [Digital Systems](./Digital-Systems/)
 
 ### 2nd Semester
 
