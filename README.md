@@ -2,7 +2,7 @@
 
 I'm currently pursuing a Computer Sciences Engineering degree at the University of Évora, Portugal.
 
-<div align="center  " style="padding-top: 10px; padding-bottom: 10px;">
+<div style="padding-top: 10px; padding-bottom: 10px;">
     <img src="./assets/UEvora_Logo.png" alt="University of Évora Logo" width="256">
 </div>
 
