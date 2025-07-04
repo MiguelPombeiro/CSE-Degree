@@ -10,7 +10,7 @@ It was developed over various phases, each of which is documented in the documen
 
 ## Final Phase Contents
 
-- [Work Statement](./Phase-6/Phase6statement.png)
+- [Final Work Statement](./Phase-6/Phase6statement.png)
 - [Final Report](./Phase-6/finalReport.pdf)
 - [Figma Prototype File](./Phase-6/Alentejo%20Revival_HealtHub.fig)
 
