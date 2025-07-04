@@ -2,10 +2,6 @@
 
 I'm currently pursuing a Computer Sciences Engineering degree at the University of Évora, Portugal.
 
-<div style="padding-top: 10px; padding-bottom: 10px;">
-    <img src="./assets/UEvora_Logo.png" alt="University of Évora Logo" width="256">
-</div>
-
 Assignments and coursework completed throughout my Computer Sciences Engineering degree will be documented here at the end of each semester.
 
 Feel free to check out the [University of Évora](https://www.uevora.pt/) website for more information about the Computer Sciences Engineering program.
