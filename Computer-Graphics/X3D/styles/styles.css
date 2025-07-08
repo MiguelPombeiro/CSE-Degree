@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', monospace; 
+    background-color: #395B64;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 30px;
+    color: hsl(0, 0%, 0%); 
+    text-align: center;
+    letter-spacing: 1px; 
+    margin-bottom: 20px;       
+}
+
+#x3d_object {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    overflow: hidden;
+
+    width: 1024px;
+    max-width: 100%; 
+    height: 1024px;
+    border: 8px solid #2C3333;
+    margin: 20px auto 0; 
+    border-radius: 15px;
+    background-color: white;
+}
+
+#aconsole {
+    /* Center the terminal */
+    margin: 4px auto 0;
+
+    font-family: 'Poppins', monospace;
+    font-size: 20px;
+    color: hsl(0, 0%, 0%);
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #2C3333;
+    background-color: #A5C9CA;
+    text-align: center;
+
+    width: 100%;
+    max-width: 850px;
+    height: 32px;
+}

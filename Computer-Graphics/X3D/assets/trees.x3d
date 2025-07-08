@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE X3D 
+    PUBLIC 
+    "ISO//Web3D//DTD X3D 3.3//EN" 
+    "http://www.web3d.org/specifications/x3d-4.0.dtd">
+<X3D 
+    profile="Full" 
+    version="4.0" 
+    xmlns:xsd="https://www.w3.org/TR/xmlschema-1/" 
+    xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-4.0.xsd">
+
+    <Scene id="theTrees"> 
+
+
+
+        <Cone DEF="cone"></Cone>
+        <Cylinder DEF="cylinder"></Cylinder>
+        <Sphere DEF="sphere"></Sphere>
+        <Box DEF="box" size="1 1 1"></Box>
+
+
+        <Switch whichChoice="-1">
+            <Group DEF="tree_cone">
+                <Transform translation="0 1 0" scale="1.2 1 1">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="#4E6C50"></Material>
+                        </Appearance>
+                        <Cone USE="cone"></Cone>
+                    </Shape>
+                </Transform>
+
+                <Transform translation="0 0 0" scale="0.3 1.3 0.3">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="#6C4E31"></Material>
+                        </Appearance>
+                        <Cylinder USE="cylinder"></Cylinder>
+                    </Shape>
+                </Transform>
+            </Group>
+
+            <Group DEF="tree_sphere">
+                <Transform translation="0 1 0" scale="1.2 1 1">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="seagreen"></Material>
+                        </Appearance>
+                        <Sphere USE="sphere"></Sphere>
+                    </Shape>
+                </Transform>
+
+                <Transform translation="0 0 0" scale="0.3 1.3 0.3">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="#654520"></Material>
+                        </Appearance>
+                        <Cylinder USE="cylinder"></Cylinder>
+                    </Shape>
+                </Transform>
+            </Group>
+        </Switch>
+
+
+        <!-- Floor -->
+
+        <Transform id="floor" translation="0 -50 0">
+            <!-- Floor -->
+            <Transform scale="50 0.2 50">
+                <Shape>
+                    <Appearance>
+                        <CommonSurfaceShader>
+                            <ImageTexture containerField="diffuseTexture" url="../media/grass_diffuse.png"></ImageTexture>
+                            <!-- <ImageTexture containerField="specularTexture" url="../media/grass_specular1.png"></ImageTexture> -->
+                            <!-- <ImageTexture containerField="normalTexture" url="../media/grass_normal.png"></ImageTexture> -->
+                        </CommonSurfaceShader>
+                    </Appearance>
+                    <Box USE="box"></Box>
+                </Shape>
+            </Transform>
+            <!-- Road -->
+            <Transform translation="0 0.07 0" rotation="0 1 0 1.5707963268" scale="50 0.2 20">
+                <Shape>
+                    <Appearance>
+                        <CommonSurfaceShader>
+                            <ImageTexture containerField="diffuseTexture" url="../media/path_diffuse.png"></ImageTexture>
+                            <ImageTexture containerField="specularTexture" url="../media/path_specular.png"></ImageTexture>
+                            <ImageTexture containerField="normalTexture" url="../media/path_normal.png"></ImageTexture>
+                        </CommonSurfaceShader>
+                    </Appearance>
+                    <Box USE="box"></Box>
+                </Shape>
+            </Transform>
+        </Transform>
+
+
+        <Transform id="all_trees" translation="0 50 0">
+            <Transform id="tree1" translation="-16 -7.8 -20" scale="2.5 4 2.5">
+                <Group USE="tree_cone"></Group>
+            </Transform>
+
+            <Transform id="tree2" translation="-12 -10.4 -15" scale="2 2 2">
+                <Group USE="tree_sphere"></Group>
+            </Transform>
+
+            <Transform idF="tree3" translation="-20 -10.4 -15" scale="2 2 2">
+                <Group USE="tree_sphere"></Group>
+            </Transform>
+
+            <Transform id="tree4" translation="16 -10.4 -20" scale="2 2 2">
+                <Group USE="tree_cone"></Group>
+            </Transform>
+
+            <Transform id="tree5" translation="12 -10.4 -15" scale="2 2 2">
+                <Group USE="tree_sphere"></Group>
+            </Transform>
+
+            <Transform idF="tree6" translation="20 -10.4 -15" scale="2 2 2">
+                <Group USE="tree_sphere"></Group>
+            </Transform>
+
+            <Transform id="tree7" translation="-20 -10.4 20" scale="2 2 2">
+                <Group USE="tree_cone"></Group>
+            </Transform>
+
+            <Transform id="tree8" translation="-13.75 -10.4 20" scale="2 2 2">
+                <Group USE="tree_sphere"></Group>
+            </Transform>
+
+            <Transform idF="tree9" translation="-20 -10.4 15" scale="2 2 2">
+                <Group USE="tree_sphere"></Group>
+            </Transform>
+
+            <Transform id="tree10" translation="20 -10.4 20" scale="2 2 2">
+                <Group USE="tree_cone"></Group>
+            </Transform>
+
+            <Transform id="tree11" translation="13.75 -10.4 20" scale="2 2 2">
+                <Group USE="tree_sphere"></Group>
+            </Transform>
+
+            <Transform idF="tree12" translation="20 -9.2 15" scale="3 3 3">
+                <Group USE="tree_sphere"></Group>
+            </Transform>
+            
+        </Transform>
+
+
+
+    </Scene>
+
+
+</X3D>

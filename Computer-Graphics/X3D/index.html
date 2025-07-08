@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>57829 - X3D</title>
+        <link rel="stylesheet" type="text/css" href="lib/x3dom/x3dom.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+        <script type="application/javascript" src="lib/x3dom/x3dom-full.js"></script>
+    </head>
+    <body>
+        <h1 class="head">
+            Trabalho de 57829 - X3D
+        </h1>
+        
+        <div">
+            <x3d id="x3d_object">
+                <scene>
+                    <inline id="X3D_Wheel" nameSpaceName="X3D" mapDEFToID="true" url="assets/Ferris_Wheel.x3d"></inline>
+                    <inline id="X3D_Trees" nameSpaceName="X3D" mapDEFToID="true" url="assets/trees.x3d"></inline>
+                </scene>
+            </x3d>
+        </div>
+        
+        <p id="aconsole">
+            
+        </p>
+        
+        <script type="module" src="js/main.js"></script>
+</body>
+</html>

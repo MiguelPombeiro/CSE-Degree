@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE X3D 
+    PUBLIC 
+    "ISO//Web3D//DTD X3D 3.3//EN" 
+    "http://www.web3d.org/specifications/x3d-4.0.dtd">
+<X3D 
+    profile="Full" 
+    version="4.0" 
+    xmlns:xsd="https://www.w3.org/TR/xmlschema-1/" 
+    xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-4.0.xsd">
+
+    <Scene DEF="theWheel">
+        <!-- General scene setup -->
+        <NavigationInfo headlight="false">
+        </NavigationInfo>
+
+        <DirectionalLight direction="-1 -1 -1" 
+                          intensity="0.5"></DirectionalLight>
+
+        <SpotLight location="30 40 30" 
+                direction="-1 -1 -1" 
+                beamWidth="1.5707963268" 
+                cutOffAngle="1.57079632687" 
+                radius="100" 
+                intensity="0.8" 
+                shadowIntensity="0.7"></SpotLight>
+
+        <Background skyColor="0.05 0.05 0.1"></Background>
+
+
+        <Switch id="viewpointSwitch" whichChoice="0">
+            <Viewpoint id="viewpoint"
+            position="-0.59582 20.30719 81.10126" 
+            orientation="-0.99871 -0.05040 -0.00545 0.21670" 
+            centerOfRotation="0.00000 0.00000 0.00000" 
+            fieldOfView="0.78540" 
+            description="defaultX3DViewpointNode"></Viewpoint>
+        </Switch>
+
+        <!-- Auxiliary nodes -->
+        <Sphere DEF="sphere" radius="1"></Sphere>
+        <Cylinder DEF="cylinder" height="3" radius="0.1"></Cylinder>
+        <Box DEF="box" size="1 1 1"></Box>
+
+        
+        <Switch whichChoice="-1">
+
+            <Group DEF="outer_wheel">
+                <!-- Cylinder 1 -->
+                <Transform translation="2 0 0">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="steelblue"></Material>
+                        </Appearance>
+                        <Cylinder USE="cylinder"></Cylinder>
+                    </Shape>
+                </Transform>
+
+                <!-- Cylinder 2 -->
+                <Transform translation="1 1.732 0" rotation="0 0 1 1.0471975512">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="steelblue"></Material>
+                        </Appearance>
+                        <Cylinder USE="cylinder" />
+                    </Shape>
+                </Transform>
+
+                <!-- Cylinder 3 -->
+                <Transform translation="-1 1.732 0" rotation="0 0 1 2.0943951024">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="steelblue"></Material>
+                        </Appearance>
+                        <Cylinder USE="cylinder" />
+                    </Shape>
+                </Transform>
+
+                <!-- Cylinder 4 -->
+                <Transform translation="-2 0 0" rotation="0 0 1 3.1415926536">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="steelblue"></Material>
+                        </Appearance>
+                        <Cylinder USE="cylinder" />
+                    </Shape>
+                </Transform>
+
+                <!-- Cylinder 5 -->
+                <Transform translation="-1 -1.732 0" rotation="0 0 1 -2.0943951024">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="steelblue"></Material>
+                        </Appearance>
+                        <Cylinder USE="cylinder" />
+                    </Shape>
+                </Transform>
+
+                <!-- Cylinder 6 -->
+                <Transform translation="1 -1.732 0" rotation="0 0 1 -1.0471975512">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="steelblue"></Material>
+                        </Appearance>
+                        <Cylinder USE="cylinder" />
+                    </Shape>
+                </Transform>
+            </Group>
+
+            <!-- Inner Wheel -->
+            <Group DEF="inner_hexagon">
+                <Transform scale="1.5 1.5 1.5" rotation="1 0 0 1.5707963268">
+                    <Transform DEF="hexagon" rotation="0 1 0 0.5235987756">     
+                        <Shape>
+                            <Appearance>
+                                <Material diffuseColor="#561A17"></Material>
+                            </Appearance>
+                            <Extrusion
+                                crossSection="
+                                    2 0,
+                                    1 1.732,
+                                    -1 1.732,
+                                    -2 0,
+                                    -1 -1.732,
+                                    1 -1.732,
+                                    2 0"
+                                spine="0 0 0 0 -0.5 0"
+                                solid="false">
+                            </Extrusion>
+                        </Shape>
+                    </Transform>
+                </Transform>
+            </Group>
+
+            <Group DEF="diameter">
+                <Transform DEF="diameter" scale="0.5 1.5 0.5">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="#B38429"></Material>
+                        </Appearance>
+                        <Cylinder USE="cylinder"></Cylinder>
+                    </Shape>                 
+                </Transform>
+            </Group>
+
+            <Group DEF="star">
+                <Transform scale="5 5 5">
+                    <Transform>
+                        <Group USE="diameter"></Group>              
+                    </Transform>
+
+                    <Transform rotation="0 0 1 1.0471975512">
+                        <Group USE="diameter"></Group>          
+                    </Transform>
+
+                    <Transform rotation="0 0 1 -1.0471975512">
+                        <Group USE="diameter"></Group>         
+                    </Transform>
+                </Transform>
+            </Group>
+
+            <Group DEF="base">
+                <Transform DEF="right_front_base" scale="1.5 0.3 0.75">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="#B4B4B8"></Material>
+                        </Appearance>
+                        <Cylinder USE="box"></Cylinder>
+                    </Shape>
+                </Transform>
+            </Group>
+
+            <Group DEF="wheel_feet">
+                <!-- Rotation Center -->
+                <Transform translation="0 0 0" scale="3 1 2.5" rotation="1 0 0 1.5707963268" >
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="#FFB737"></Material>
+                        </Appearance>
+                        <Cylinder USE="cylinder"></Cylinder>
+                    </Shape>
+                </Transform>
+
+                <Transform id="legs">
+                <!-- front right feet -->
+                    <Transform translation="1.2 -1.7 1.2" scale="1.5 1.5 1.5" rotation="0 0 1 0.6108652382" >
+                        <Shape>
+                            <Appearance>
+                                <Material diffuseColor="#22278B"></Material>
+                            </Appearance>
+                            <Cylinder USE="cylinder"></Cylinder>
+                        </Shape>
+                    </Transform>
+                    
+                    <!-- front left feet -->
+                    <Transform translation="-1.2 -1.7 1.2" scale="1.5 1.5 1.5" rotation="0 0 1 -0.6108652382" >
+                        <Shape>
+                            <Appearance>
+                                <Material diffuseColor="#22278B"></Material>
+                            </Appearance>
+                            <Cylinder USE="cylinder"></Cylinder>
+                        </Shape>
+                    </Transform>
+
+                    <!-- back right feet -->
+                    <Transform translation="1.2 -1.7 -1.2" scale="1.5 1.5 1.5" rotation="0 0 1 0.6108652382" >
+                        <Shape>
+                            <Appearance>
+                                <Material diffuseColor="#22278B"></Material>
+                            </Appearance>
+                            <Cylinder USE="cylinder"></Cylinder>
+                        </Shape>
+                    </Transform>
+
+                    <!-- back left feet -->
+                    <Transform translation="-1.2 -1.7 -1.2" scale="1.5 1.5 1.5" rotation="0 0 1 -0.6108652382" >
+                        <Shape>
+                            <Appearance>
+                                <Material diffuseColor="#22278B"></Material>
+                            </Appearance>
+                            <Cylinder USE="cylinder"></Cylinder>
+                        </Shape>
+                    </Transform>
+                </Transform>
+
+                <Transform id="bases">
+                    <!-- front right base -->
+                    <Transform translation="2.5 -3.6 1.2">
+                        <Group USE="base"></Group>
+                    </Transform>
+
+                    <!-- front left base -->
+                    <Transform translation="-2.5 -3.6 1.2">
+                        <Group USE="base"></Group>
+                    </Transform>
+
+                    <!-- back right base -->
+                    <Transform translation="2.5 -3.6 -1.2">
+                        <Group USE="base"></Group>
+                    </Transform>
+
+                    <!-- back left base -->
+                    <Transform translation="-2.5 -3.6 -1.2">
+                        <Group USE="base"></Group>
+                    </Transform>
+                </Transform>
+            </Group>
+
+            <Group DEF="cabin">
+                <Transform scale="2.2 2.2 3.8">
+                    <Shape>
+                        <Appearance>
+                            <Material diffuseColor="crimson"></Material>
+                        </Appearance>
+                        <Sphere USE="sphere"></Sphere>
+                    </Shape>
+                </Transform>
+            </Group>
+
+        </Switch>
+
+
+        <!-- Ticket Box -->
+        <Transform DEF="ticket_box" translation="0 50 50">
+            <Transform translation="10 -9.5 10" scale="5 7 4">
+                <Shape>
+                    <Appearance>
+                        <Material diffuseColor="#FF6E31"></Material>
+                    </Appearance>
+                    <Box USE="box"></Box>
+                </Shape>
+            </Transform>
+            <!-- Text to the top of the box -->
+            <Transform translation="10 -7.5 12.2" scale="1 1 1">
+                <Shape>
+                    <Appearance>
+                        <Material diffuseColor="black"></Material>
+                    </Appearance>
+                    <Text string="TICKETS" solid="false">
+                        <FontStyle family="Poppins" justify="MIDDLE" size="1"></FontStyle>
+                    </Text>
+                </Shape>
+            </Transform>
+        </Transform>
+
+        
+        
+        <Transform id="ferris_wheel" translation="0 2 0">
+
+
+            <Transform id="wheel">
+                <!-- front outer wheel  -->
+                <Transform id="outer_wheels" translation="-50 50 0">
+                    <Transform id="wheel_f_outer">
+                        <Transform translation="0 0 2" scale="5 5 5">
+                            <Group USE="outer_wheel"></Group>
+                        </Transform>
+                    </Transform>
+
+
+                    <!-- back outer wheel  -->
+                    <Transform id="wheel_b_outer">
+                        <Transform translation= "0 0 -2" scale="5 5 5">
+                            <Group USE="outer_wheel"></Group>
+                        </Transform>
+                    </Transform>
+                </Transform>
+
+
+                <Transform id="wheel_axis" translation="-50 -50 -50">
+                    <!-- front inner wheel -->
+                    <Transform id="wheel_f_inner" translation="0 0 2.1" >
+                        <Group USE="inner_hexagon"></Group>
+                    </Transform>
+
+                    <!-- back inner wheel -->
+                    <Transform id="wheel_b_inner" translation= "0 0 -1.9" >
+                        <Group USE="inner_hexagon"></Group>
+                    </Transform>
+
+                    <!-- star -->
+                    <Transform id="front_radius_segments" translation="0 0 1.7" >
+                        <Group USE="star"></Group>
+                    </Transform>
+
+                    <Transform id="back_radius_segments" translation="0 0 -2.3">
+                        <Group USE="star"></Group>
+                    </Transform>
+
+                </Transform>
+
+                <!-- Cabins -->
+                <Transform DEF="cabins" translation="0 0 -50">
+
+                    <Transform translation="0 12 0" >
+                        <Group USE="cabin"></Group>
+                    </Transform>
+
+                    <Transform translation="0 -12 0">
+                        <Group USE="cabin"></Group>
+                    </Transform>
+
+                    <Transform translation="-10.5 6 0">
+                        <Group USE="cabin"></Group>
+                    </Transform>
+
+                    <Transform translation="10.5 6 0">
+                        <Group USE="cabin"></Group>
+                    </Transform>
+
+                    <Transform translation="-10.5 -6 0">
+                        <Group USE="cabin"></Group>
+                    </Transform>
+
+                    <Transform translation="10.5 -6 0">
+                        <Group USE="cabin"></Group>
+                    </Transform>
+
+                </Transform>
+
+            </Transform>
+
+            <!-- Feet and base  -->
+            <Transform id="wheel_base" scale="4 4 4" translation="50 50 0">
+                <Group USE="wheel_feet"></Group>
+            </Transform>
+
+
+        </Transform>
+
+
+        <!-- Animation -->
+        <!-- Wheel Rotation -->
+        <TimeSensor DEF="tictoc" cycleInterval="32" loop="true"></TimeSensor>
+        <OrientationInterpolator DEF="wheelRotation" key="0.00 0.25 0.50 0.75 1.00" keyValue="
+            0 0 1 0.0000000000
+            0 0 1 1.5707963268
+            0 0 1 3.1415926536
+            0 0 1 4.7123889804
+            0 0 1 6.2831853072"></OrientationInterpolator>
+        <Route fromNode="tictoc" fromField="fraction_changed" toNode="wheelRotation" toField="set_fraction"></Route>
+        <Route fromNode="wheelRotation" fromField="value_changed" toNode="wheel" toField="rotation"></Route>
+    </Scene>
+</X3D>
