@@ -17,7 +17,7 @@ This project implements, in RISC-V Assembly, a program to remove noise from a 40
 
 ## How to run
 
-You can run the program using the RISC-V simulator [RARS](https://github.com/TheThirdOne/rars).
+You can run the program using the RISC-V simulator [RARS](https://github.com/TheThirdOne/rars) or other compatible RISC-V simulators.
 
 - Convert the input image to a .gray format before running the program. The program will read the input image, apply the selected filter, and save the output image in the same directory. 
 
