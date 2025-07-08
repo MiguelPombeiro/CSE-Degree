@@ -8,9 +8,13 @@ TODO
 
 ## Contents
 
-- [Work Statement](./workStatement.pdf)
-- [Report](./report.pdf)
+- [Assignment 1](./Assignment-1)
+  - [Work Statement](./Assignment-1/workStatement.pdf)
+  - [Report](./Assignment-1/report.pdf)
 
+- [Assignment 2](./Assignment-2)
+  - [Work Statement](./Assignment-2/workStatement.pdf)
+  - [Report](./Assignment-2/report.pdf)
 
 ## How to run
 
