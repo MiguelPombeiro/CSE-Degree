@@ -15,7 +15,7 @@ This project implements a spell checker in C that reads a text file, checks each
 
 1. There is a Makefile included in the project directory. To compile the code, run:
 
-```bash
+```shell
 make
 ```
 
