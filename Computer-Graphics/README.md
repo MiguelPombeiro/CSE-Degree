@@ -43,7 +43,7 @@ For example, you can use the Live Server extension in Visual Studio Code or any 
 
 **X3D**: ![Grade: 100/100](https://img.shields.io/badge/Grade-100%2F100-brightgreen)
 
-**3JS**: ![Grade: 67/100](https://img.shields.io/badge/Grade-67%2F100-brightgreen)
+**3JS**: ![Grade: 67/100](https://img.shields.io/badge/Grade-67%2F100-yellow)
 
 ## Author
 
