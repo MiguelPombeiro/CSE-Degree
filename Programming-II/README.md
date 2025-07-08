@@ -11,9 +11,9 @@ TODO
 - [Work Statement](./workStatement.pdf)
 - [Report](./report.pdf)
 - Source Code: 
-    - [Main File](./Main.java), 
-    - [Game Controller](./controller),
-    - [Game Model](./model),
+    - [Main File](./Main.java) 
+    - [Game Controller](./controller)
+    - [Game Model](./model)
     - [Game View](./view)
     - [Utilities](./utils)
 
