@@ -26,7 +26,7 @@ The **second assignment** involves creating a database for a virtual bookstore, 
 
 - Both assignments also include a query file that contains the SQL queries to retrieve the required information from the database. You can run these files in a PostgreSQL environment after executing the schema and data population scripts.
 
-## Grade
+## Grades
 
 **Assignment 1**: ![Grade: 6/6](https://img.shields.io/badge/Grade-6%2F6-brightgreen)
 
