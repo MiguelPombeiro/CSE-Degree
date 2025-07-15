@@ -16,14 +16,17 @@ Each assignment explores a different part of the course curriculum.
 - [Assignment 1](./Assignment-1)
     - [Work Statement](./Assignment-1/workStatement.pdf)
     - [Report](./Assignment-1/report.pdf)
+    - [Source Code](./Assignment-1/src)
 
 - [Assignment 2](./Assignment-2)
     - [Work Statement](./Assignment-2/workStatement.pdf)
     - [Report](./Assignment-2/report.pdf)
+    - [Source Code](./Assignment-2/src)
 
 - [Assignment 3](./Assignment-3)
     - [Work Statement](./Assignment-3/workStatement.pdf)
     - [Report](./Assignment-3/report.pdf)
+    - [Source Code](./Assignment-3/src)
 
 ## How to run
 
@@ -33,6 +36,7 @@ Each assignment explores a different part of the course curriculum.
   make run
   ```
 - All makefiles expect the input to be provided in a file named `teste-1.in` in the same directory and with the format specified in the respective work statements.
+- The output will be generated in a file named `my.out` in the same directory.
 
 ## Grades
 
