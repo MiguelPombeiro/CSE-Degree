@@ -4,7 +4,11 @@ Contains the two assignments for the Databases course.
 
 ## About
 
-TODO
+Both assignments focus on the design and implementation of a database system and are implemented in PostgreSQL.
+
+The **first assignment** centers on implementing and querying a database for a Social Network dedicated to Desert Lovers. The main objectives were formulating and executing SQL queries, as well as applying relational algebra to extract data from the database.
+
+The **second assignment** involves creating a database for a virtual bookstore, which includes designing the database schema, populating it with data, and executing queries to retrieve information. The focus is on understanding database normalization, relationships, and complex queries.
 
 ## Contents
 
@@ -18,7 +22,9 @@ TODO
 
 ## How to run
 
-TODO
+- Both assignments have a .sql file that contains the SQL commands to create the database schema and populate it with example data. You can run these files in a PostgreSQL environment.
+
+- Both assignments also include a query file that contains the SQL queries to retrieve the required information from the database. You can run these files in a PostgreSQL environment after executing the schema and data population scripts.
 
 ## Grade
 

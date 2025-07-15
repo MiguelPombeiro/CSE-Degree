@@ -11,7 +11,7 @@ Feel free to check out the [University of Évora](https://www.uevora.pt/) websit
 ### 1st Semester
 
 - [Digital Systems](./Digital-Systems/)
-- [Human-Computer Interaction (HCI)](./Human-Computer_Interaction/)
+- [Human-Computer Interaction (HCI)](./Human-Computer-Interaction/)
 - [Programming I](./Programming-I/)
 
 ### 2nd Semester
@@ -29,6 +29,7 @@ Feel free to check out the [University of Évora](https://www.uevora.pt/) websit
 
 - [Computer Networks](./Computer-Networks/)
 - [Data Structures and Algorithms II](./Data-Structures-and-Algorithms-II/)
+- [Introduction to Research](./Introduction-to-Research/)
 - [Operating Systems](./Operating-Systems/)
 
 ## Notes
