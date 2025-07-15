@@ -1,6 +1,6 @@
 # Databases
 
-Contains the final project for the Introduction to Research course.
+Contains the final scientific paper for the Introduction to Research course.
 
 ## About
 
@@ -8,14 +8,12 @@ TODO
 
 ## Contents
 
-
-## How to run
-
-TODO
+- [Work Statement](./workStatement.png)
+- [Final Paper](./filelessMalwareArticle.pdf)
 
 ## Grade
 
-
+TODO: TBD
 
 ## Authors
 
