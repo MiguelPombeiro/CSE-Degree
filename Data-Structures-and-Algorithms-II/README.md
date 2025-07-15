@@ -1,4 +1,4 @@
-# Datastructures and Algorithms II
+# Data Structures and Algorithms II
 
 Contains the three assignments for the Data Structures and Algorithms II course.
 
