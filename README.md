@@ -32,6 +32,15 @@ Feel free to check out the [University of Évora](https://www.uevora.pt/) websit
 - [Introduction to Research](./Introduction-to-Research/)
 - [Operating Systems](./Operating-Systems/)
 
+### 5th Semester
+
+- [Distributed Systems](./Distributed-Systems/)
+- [Machine Learning](./Machine-Learning/)
+
+### 6th Semester
+
+In progress...
+
 ## Notes
 
 Most reports and work statements are written in Portuguese, as required for course submissions.
