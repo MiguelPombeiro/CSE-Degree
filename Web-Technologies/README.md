@@ -1,6 +1,6 @@
-# Distributed Systems
+# Web Technologies
 
-Contains the two projects for the Distributed Systems course.
+Contains the two projects for the Web Technologies course.
 
 ## About
 
@@ -11,10 +11,12 @@ TODO
 - [Project 1](./Project-1)
     - [Work Statement](./Project-1/workStatement.pdf)
     - [Report](./Project-1/report.pdf)
+    - [Source Code](./Project-1/src/)
 
 - [Project 2](./Project-2)
     - [Work Statement](./Project-2/workStatement.pdf)
     - [Report](./Project-2/report.pdf)
+    - [Source Code](./Project-2/src/)
 
 ## How to run
 
@@ -22,7 +24,7 @@ TODO
 
 ## Grades
 
-**Project 1**: ![Grade: 19/20](https://img.shields.io/badge/Grade-19%2F20-brightgreen)
+**Project 1**: ![Grade: 17/20](https://img.shields.io/badge/Grade-17%2F20-brightgreen)
 
 **Project 2**: ![Grade: 18/20](https://img.shields.io/badge/Grade-18%2F20-brightgreen)
 

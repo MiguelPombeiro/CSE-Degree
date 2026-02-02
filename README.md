@@ -38,6 +38,7 @@ Feel free to check out the [University of Évora](https://www.uevora.pt/) websit
 - [Machine Learning](./Machine-Learning/)
 - [Methods and Software Development](./Methods-and-Software-Development/)
 - [Programming III](./Programming-III/)
+- [Web Technologies](./Web-Technologies/)
 
 ### 6th Semester
 
