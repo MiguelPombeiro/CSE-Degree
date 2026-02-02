@@ -36,6 +36,8 @@ Feel free to check out the [University of Évora](https://www.uevora.pt/) websit
 
 - [Distributed Systems](./Distributed-Systems/)
 - [Machine Learning](./Machine-Learning/)
+- [Methods and Software Development](./Methods-and-Software-Development/)
+- [Programming III](./Programming-III/)
 
 ### 6th Semester
 
