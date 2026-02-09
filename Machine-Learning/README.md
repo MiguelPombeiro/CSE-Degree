@@ -20,11 +20,7 @@ TODO
 
 ## Grade
 
-TBD
-<!-- TODO -->
-<!-- **Assignment 1**: ![Grade: 20/20](https://img.shields.io/badge/Grade-20%2F20-brightgreen) -->
-
-
+### Assignment: 5.8/6
 
 ## Authors
 
