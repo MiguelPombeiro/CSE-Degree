@@ -18,9 +18,7 @@ TODO
 
 ## Grade
 
-TBD
-<!-- TODO -->
-<!-- ![Grade: 20/20](https://img.shields.io/badge/Grade-20%2F20-brightgreen) -->
+![Grade: 17/20](https://img.shields.io/badge/Grade-17%2F20-brightgreen)
 
 ## Authors
 
