@@ -42,7 +42,9 @@ Feel free to check out the [University of Évora](https://www.uevora.pt/) websit
 
 ### 6th Semester
 
-In progress...
+- [Artificial Intelligence](./Artificial-Intelligence/)
+- [Mobile Systems and Applications](./Mobile-Systems-and-Applications/)
+- [Security](./Security/)
 
 ## Notes
 

@@ -25,8 +25,7 @@ TODO
 
 **Part 1**: ![Grade: 20/20](https://img.shields.io/badge/Grade-20%2F20-brightgreen)
 
-**Part 2**: TBD
-<!-- ![Grade: 18/20](https://img.shields.io/badge/Grade-18%2F20-brightgreen) -->
+**Part 2**: ![Grade: 20/20](https://img.shields.io/badge/Grade-20%2F20-brightgreen)
 
 
 ## Authors
