@@ -1,8 +1,6 @@
 # Computer Sciences Engineering Degree
 
-I'm currently pursuing a Computer Sciences Engineering degree at the University of Évora, Portugal.
-
-Assignments and coursework completed throughout my Computer Sciences Engineering degree will be documented here at the end of each semester.
+This repository contains all the projects I developed throughout my Computer Sciences Engineering degree at the University of Évora, Portugal. The projects are organized by semester and courses, covering a wide range of topics in computer science, including programming, data structures, algorithms, computer architecture, databases, computer networks, machine learning, artificial intelligence, and more.
 
 Feel free to check out the [University of Évora](https://www.uevora.pt/) website for more information about the Computer Sciences Engineering program.
 
