@@ -13,7 +13,7 @@ TODO
 
 ## Grade
 
-TODO: TBD
+TODO: 16/20
 
 ## Authors
 
