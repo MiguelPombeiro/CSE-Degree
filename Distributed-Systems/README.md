@@ -4,7 +4,7 @@ Contains the two projects for the Distributed Systems course.
 
 ## About
 
-Check Readme.md files in each project folder for more information about the projects.
+Check Readme.md files in each project directory for more information about the projects.
 
 ## Contents
 
@@ -18,7 +18,7 @@ Check Readme.md files in each project folder for more information about the proj
 
 ## How to run
 
-Check Readme.md files in each project folder for instructions on how to run the projects.
+Check Readme.md files in each project directory for instructions on how to run the projects.
 
 ## Grades
 

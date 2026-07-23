@@ -4,7 +4,7 @@ Contains the two projects for the Web Technologies course.
 
 ## About
 
-TODO
+Check Readme.md files in each project directory for more information about the projects.
 
 ## Contents
 
@@ -16,11 +16,11 @@ TODO
 - [Project 2](./Project-2)
     - [Work Statement](./Project-2/workStatement.pdf)
     - [Report](./Project-2/report.pdf)
-    - [Source Code](./Project-2/src/)
+    <!-- - [Source Code](./Project-2/src/) -->
 
 ## How to run
 
-TODO
+Check Readme.md files in each project directory for instructions on how to run the projects.
 
 ## Grades
 
