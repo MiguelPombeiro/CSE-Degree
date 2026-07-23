@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+option java_package = "pt.uevora.sdist.monitoring.proto";
+option java_outer_classname = "MetricsProto";
+
+package metrics;
+
+// Service definition for metrics collection
+service MetricsService {
+  rpc SendData (SensorData) returns (MetricResponse);
+}
+
+// Sensor data message
+message SensorData {
+  int64 device_id = 1;
+  double temperature = 2;
+  double humidity = 3;
+  string timestamp = 4;
+}
+
+// Response message
+message MetricResponse {
+  bool success = 1;
+  string message = 2;
+}
