@@ -4,7 +4,7 @@ Contains the two projects for the Distributed Systems course.
 
 ## About
 
-TODO
+Check Readme.md files in each project folder for more information about the projects.
 
 ## Contents
 
@@ -12,13 +12,13 @@ TODO
     - [Work Statement](./Project-1/workStatement.pdf)
     - [Report](./Project-1/report.pdf)
 
-- [Project 2](./Project-2)
+- [Project 2: Environmental Monitoring System](./Project-2)
     - [Work Statement](./Project-2/workStatement.pdf)
     - [Report](./Project-2/report.pdf)
 
 ## How to run
 
-TODO
+Check Readme.md files in each project folder for instructions on how to run the projects.
 
 ## Grades
 
