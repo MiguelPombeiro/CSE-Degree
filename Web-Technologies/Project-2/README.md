@@ -15,6 +15,7 @@ Registered users can create advertisements, obtain a payment reference through a
 ### Notes
 - The included `.env` and `application.properties` files are preconfigured for local execution.
 - The application uses an external payment service for generating payment references. The service was provided by the course instructors and is no longer available.
+- The user interface is in Portuguese, as required for course submissions.
 
 ### 1. Start the database
 
