@@ -51,7 +51,10 @@ After authentication, enter `/help` to display the available commands. These inc
 
 ### Notes
 
-The submitted configuration is intended to run the server and clients locally on the same machine.
+- The submitted configuration is intended to run the server and clients locally on the same machine.
+- Run each client in a separate terminal and use a different account for every simultaneous client.
+- User credentials are stored unencrypted in `server/Database/users.csv`; use test credentials only.
+- Registered users and groups persist across server restarts in the files under `server/Database/`.
 
 ## Grade
 
