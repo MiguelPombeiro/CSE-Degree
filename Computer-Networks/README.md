@@ -62,7 +62,7 @@ After authentication, enter `/help` to display the available commands. These inc
 
 ## Authors
 
-- [André Gonçalves](https://github.com/andreg05)
+- [André Gonçalves](https://github.com/andrefsg05)
 - [André Zhan](https://github.com/andr-zhan)
 - [Miguel Pombeiro](https://github.com/MiguelPombeiro)
 - [Miguel Rocha](https://github.com/miguelrocha1)
